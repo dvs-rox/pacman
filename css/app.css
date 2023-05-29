@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.modal {
+  visibility: hidden;
+  position: absolute;
+  width: 300px;
+  height: 130px;
+  border: solid 3px white;
+  background-color: black;
+  margin-left: 42%;
+  margin-top: 10%;
+}
+.pacman img{
+  width: 30px;
+  height: 30px;
+}
+.up{
+  transform:rotate(-90deg)
+}
+.down{
+  transform:rotate(90deg)
+}
+.left{
+  transform:rotate(180deg);
+  transform: scalex(-1);
+}
+.right{
+  transform:rotate(0deg);
+  transform: scalex(1);
+}
